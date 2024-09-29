@@ -36,7 +36,7 @@ h1 {
     font-weight: normal;
     font-family: cursive;
     text-transform: uppercase;
-    
+
 }
 
 h4 {
@@ -138,8 +138,8 @@ hr {
 /* style for Showcase-banner */
 .showcase-home {
     position: relative;
-    height: 50vh; 
-    overflow: hidden; 
+    height: 50vh;
+    overflow: hidden;
 }
 
 #video-background {
@@ -157,7 +157,7 @@ hr {
 
 .showcase-banner {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,7 +183,7 @@ hr {
 
 
 
-/* Styles for About Section */
+/* Styles for About Section and .contact-section */
 .about,
 .contact-section {
     display: flex;
@@ -353,14 +353,14 @@ video {
 
 }
 
-/* Ajustar las imágenes */
+
 .about-photo img,
 .portafolio-item img {
 
     padding: 15px;
 }
 
-/* Video responsivo en la sección de habilidades */
+
 .video-section video {
     width: 50%;
     margin-top: 55px;
@@ -420,7 +420,6 @@ video {
 /*styles for footer*/
 footer {
     background-color: var(--color-primario);
-    /* Color de fondo del footer */
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -438,7 +437,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 15px;
-   
+
 }
 
 .social-links li a {
@@ -446,22 +445,23 @@ footer {
     font-size: 24px;
     text-decoration: none;
     transition: color 0.3s ease;
+
     .social-links li a:hover {
         color: #ff6600;
     }
 
 
-.footer-copy {
+    .footer-copy {
         margin-top: 20px;
         font-size: 14px;
         color: #bbb;
-        /* Color más claro para el copyright */
     }
 
 
 
-    /* Para pantallas medianas (tabletas y dispositivos entre 768px y 1024px) */
+    /* For medium screens (tablets and devices between 768px and 1024px) */
     @media (max-width: 1024px) {
+
         .skills-video-section {
             flex-direction: column;
         }
@@ -579,10 +579,10 @@ footer {
         align-items: center;
         /* Centrar los iconos */
     }
-
+ /* Espacio entre los iconos en columna */
     .social-links li {
         margin-bottom: 10px;
-        /* Espacio entre los iconos en columna */
+     
     }
 
     .social-links li:last-child {
