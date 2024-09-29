@@ -68,4 +68,4 @@ Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE
 
 ---
 
-¡Gracias por visitar mi portafolio! Si te gusta lo que ves o si tienes alguna idea de colaboración, no dudes en contactarme. 🚀
+¡Visita mi [ webpage del Portfolio](https://alvarogil93.github.io/portfolio/#contact)! Si te gusta lo que ves o si tienes alguna idea de colaboración, no dudes en contactarme.🚀
