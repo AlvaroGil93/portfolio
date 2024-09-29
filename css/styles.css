@@ -137,10 +137,9 @@ hr {
 
 /* style for Showcase-banner */
 .showcase-home {
-
-    height: 100vh;
-
-    display: block;
+    position: relative;
+    height: 50vh; 
+    overflow: hidden; 
 }
 
 #video-background {
