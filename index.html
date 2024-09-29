@@ -1,0 +1,167 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Portafolio - Álvaro Gil</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <div class="container">
+                    <h1 class="logo"><a href="index.html">Álvaro Gil</a></h1>
+                    <ul id="main-nav" class="txt-btn">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#skill">Skill</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+        
+            <div id="showcase-home">
+                <!-- Video de fondo -->
+                <video autoplay muted loop id="video-background">
+                    <source src="./assets/baner.mp4" type="video/mp4">
+                </video>
+        
+                <!-- Contenido encima del video -->
+                <div class="showcase-banner">
+                    <a href="#portfolio"  id="portafolio" class="btn-port">view portfolio</a>
+                </div>
+            </div>
+        </header>
+        
+        <section id= "about" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About me</h2>
+                    <hr>
+                    <br>
+                    <p>
+                        Hello! I'm Álvaro Gil, a full stack developer in training with a great passion for motorcycles, especially Harley Davidson. I love the world of programming and am constantly learning to master technologies like HTML, CSS, JavaScript, and Angular. I'm always looking for new challenges and opportunities to improve!
+                    </p>
+                </div>
+                <div class="about-photo">
+                    <img src="./assets/logo.JPG" alt="Foto de Álvaro Gil">
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="portafolio">
+            <h2>Portfolio</h2>
+            <div class="portafolio-grid">
+                <!-- Proyecto 1 -->
+                <div class="portafolio-item">
+                    <a href="https://github.com/AlvaroGil93/tarjeta-invitacion" target="_blank">
+                        <img src="./assets/card.png" alt="Invitation Card">
+                        <h3>Invitation Card</h3>
+                    </a>
+                    <p>This project involves creating a wedding invitation card using HTML5 and CSS3. The goal of this project is to simulate a real-life scenario where a visually appealing and functional invitation is designed.</p>
+                </div>
+        
+                <!-- Proyecto 2 -->
+                <div class="portafolio-item">
+                    <a href="https://alvarogil93.github.io/landingPage/" target="_blank">
+                        <img src="./assets/landingPage.png" alt="Landing Page">
+                        <h3>Landing Page</h3>
+                    </a>
+                    <p>This project aims to consolidate the basic concepts learned in HTML5 and CSS3. The theme chosen for the landing page is about Harley Davidson motorcycles, showcasing models from the most famous motorcycle brand worldwide.</p>
+                </div>
+        
+                <!-- Proyecto 3 -->
+                <div class="portafolio-item">
+                    <a href="https://github.com/AlvaroGil93" target="_blank">
+                        <img src="./assets/miGithub.png" alt="GitHub Profile">
+                        <h3>My GitHub</h3>
+                    </a>
+                    <p>With just one click you can see my GitHub profile.</p>
+                </div>
+        
+                <!-- Proyecto 4 -->
+                <div class="portafolio-item">
+                    <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/8103728/142995_42655.png" alt="Coming Soon">
+                    <h3>Coming Soon</h3>
+                    <p>Project under construction.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="skill" class="skills-video-section">
+            <div class="skills-section">
+            <h2>Skill</h2>
+            <br>
+        
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+        
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+        
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+        
+            <div class="skill">
+                <h3>Angular</h3>
+                <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            </div>
+        
+            <div class="video-section">
+            <video  autoplay muted loop width="50%" autoplay>
+                <source src="/assets/skill.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+            </div>
+        </section>
+        
+
+        <section id="contact" class="contact-section">
+            <div class="contact-info">
+            <h2>Contact Me</h2>
+            <p><strong>Name:</strong> Álvaro Gil Arias</p>
+            <p><strong>Email:</strong> alvaro.gil@example.com</p>
+            <p><strong>Number:</strong> +34 123 456 789</p>
+            <p><strong>Address:</strong> Calle Ejemplo 123, Madrid, España</p>
+            </div>
+        
+            <div class="contact-form">
+            <h2>Contact form</h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+                <button type="submit">Send</button>
+            </form>
+            </div>
+        </section>
+        
+        
+    </body>
+    </html>
